@@ -9,7 +9,7 @@ import os
 
 ENTRY = "My agent treats every task like a PhD thesis and every deadline like a rumour."
 
-LIMIT = 200
+LIMIT = 200  # gate: one line, 1-200 characters, no padding, no double spaces
 FORBIDDEN = ("\n", "\r", "\t", "  ")
 
 
